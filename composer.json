@@ -1,5 +1,5 @@
 {
-  "name": "pheicloud/mqtt",
+  "name": "pheicloud/pheimqtt",
   "description": "a class of mqtt",
   "type": "library",
   "license": "Apache-2.0",
