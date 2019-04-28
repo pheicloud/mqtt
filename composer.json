@@ -1,0 +1,25 @@
+{
+  "name": "pheicloud/mqtt",
+  "description": "a class of mqtt",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "shine1rainbow",
+      "email": "shine1rainbow@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Pheicloud\\PheiMqtt\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pheicloud\\PheiMqtt\\Tests\\": "tests/"
+    }
+  }
+}
