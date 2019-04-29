@@ -1,6 +1,6 @@
 <?php
 
-namespace Pheicloud\PheiMqtt;
+namespace Pheicloud\Pheimqtt;
 
 /*
 |--------------------------------------------------------------------------

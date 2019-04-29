@@ -14,12 +14,12 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Pheicloud\\PheiMqtt\\": "src/"
+      "Pheicloud\\Pheimqtt\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Pheicloud\\PheiMqtt\\Tests\\": "tests/"
+      "Pheicloud\\Pheimqtt\\Tests\\": "tests/"
     }
   }
 }
