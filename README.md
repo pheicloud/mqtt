@@ -1,14 +1,14 @@
-Mqtt协议类
+Mqtt
 
 ## 1. 系统介绍
 
 ```
-一个简单的php类，用于连接/发布/订阅MQTT代理
+连接/发布/订阅MQTT代理
 ```
 
 ## 2. 安装
 
-composer require "pheicloud/pheimqtt"
+composer require pheicloud/pheimqtt  --dev
 
 ## 3. 使用
 
@@ -21,8 +21,6 @@ Pheicloud\Pheimqtt\PheimqttServiceProvider::class,
 ```
 ### 3.2 解析
 ```
-$mqtt = app('pheimqtt');
-or
 $mqtt = new Pheicloud\Pheimqtt\Pheimqtt($server, $port, $client_id);
 ```
 

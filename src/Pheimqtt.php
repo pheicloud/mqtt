@@ -48,6 +48,7 @@ class Pheimqtt
         {
 			sleep(10);
 		}
+
 		return true;
 	}
 
