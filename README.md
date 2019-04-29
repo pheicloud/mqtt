@@ -16,7 +16,7 @@ composer require "pheicloud/pheimqtt"
 ### 3.1 注册
 
 ```
-Pheicloud\Pheimqtt\PheiMqttServiceProvider::class,
+Pheicloud\Pheimqtt\PheimqttServiceProvider::class,
 
 ```
 ### 3.2 解析

@@ -57,7 +57,6 @@ class PheiMqtt
      */
     public function connect($clean = true, $will = NULL, $username = NULL, $password = NULL)
     {
-		
 		if ($will) $this->will = $will;
 		if ($username) $this->username = $username;
 		if ($password) $this->password = $password;
