@@ -11,7 +11,7 @@ namespace Pheicloud\Pheimqtt;
 |
 */
 
-class PheiMqtt
+class Pheimqtt
 {
 	private $socket; 			/* holds the socket	*/
 	private $msgid = 1;			/* counter for message id */
@@ -247,7 +247,7 @@ class PheiMqtt
 
 	/* proc: the processing loop for an "allways on" client 
 		set true when you are doing other stuff in the loop good for watching something else at the same time */	
-    public function proc( $loop = true)
+    public function proc($loop = true)
     {
 		if (1) {
 			$sockets = array($this->socket);

@@ -22,6 +22,8 @@ Pheicloud\Pheimqtt\PheimqttServiceProvider::class,
 ### 3.2 解析
 ```
 $mqtt = app('pheimqtt');
+or
+$mqtt = new Pheicloud\Pheimqtt\Pheimqtt($server, $port, $client_id);
 ```
 
 ## 4 Thanks
