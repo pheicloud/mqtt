@@ -1,8 +1,8 @@
 <?php
 
-namespace Pheimqtt;
+namespace Pheicloud;
 
-use Pheimqtt\Protocols\Mqtt;
+use Pheicloud\Protocols\Mqtt;
 
 class Pheimqtt
 {
