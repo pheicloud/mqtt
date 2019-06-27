@@ -1,6 +1,6 @@
 <?php
 
-namespace Pheimqtt\Protocols;
+namespace Pheicloud\Protocols;
 
 /**
  * Mqtt Protocol.
