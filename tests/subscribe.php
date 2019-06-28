@@ -2,8 +2,7 @@
 
 use Pheicloud\Pheimqtt;
 
-//require_once __DIR__ . '/vendor/autoload.php';
-//require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $options = [
     'clean_session' => false,
@@ -12,7 +11,8 @@ $options = [
     'password' => '',
 ];
 
-$mqtt = new Pheimqtt('127.0.0.1', 1883, $options);
+//Free mqtt server test
+$mqtt = new Pheimqtt('broker.hivemq.com', 1883, $options);
 
 $mqtt->onConnect = function ($mqtt) {
     $mqtt->subscribe('/World');
